@@ -1,0 +1,16 @@
+{
+  "name": "spc-notify-nma",
+  "version": "0.10.0",
+  "description": "Send events from Siemens SPC alarm by Notify My Android service",
+  "author": "Goran Lundquist <info@lundix.se>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Goran58/node-spc-notify-nma.git"
+  },
+  "dependencies": {
+    "websocket": "*",
+    "nma": "*"
+  },
+  "engine": "node 0.10.x",
+  "main": "node-spc-notify-nma.js"
+}
